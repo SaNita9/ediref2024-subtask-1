@@ -88,8 +88,8 @@ def lexicon_search():
             prediction.append('sadness')
         if max_value_of_any_emotion == fear:
             prediction.append('fear')
-        if max_value_of_any_emotion == disgust:
-            prediction.append('disgust')
+        if max_value_of_any_emotion == anticipation:
+            prediction.append('anticipation')
         if max_value_of_any_emotion == trust:
             prediction.append('trust')
         if max_value_of_any_emotion == disgust:
