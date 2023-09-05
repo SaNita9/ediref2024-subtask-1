@@ -88,8 +88,8 @@ def lexicon_search():
             prediction.append('sadness')
         if max_value_of_any_emotion == fear:
             prediction.append('fear')
-        if max_value_of_any_emotion == disgust:
-            prediction.append('disgust')
+        if max_value_of_any_emotion == anticipation:
+            prediction.append('anticipation')
         if max_value_of_any_emotion == trust:
             prediction.append('trust')
         if max_value_of_any_emotion == disgust:
@@ -101,7 +101,7 @@ def lexicon_search():
             confidence = max_value_of_any_emotion / all_emotion_instances
         else:
             prediction = 'neutral'
-            confidence = 0
+            confidence = 1.0
         print(f"prediction: {prediction}")
         print(f"confidence: {confidence}")
         print(f"based on: {justification}")
