@@ -102,6 +102,7 @@ def lexicon_search():
         else:
             prediction = 'neutral'
             confidence = 1.0
+
         print(f"prediction: {prediction}")
         print(f"confidence: {confidence}")
         print(f"based on: {justification}")
