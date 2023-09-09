@@ -3,11 +3,11 @@ import spacy
 import json
 from sklearn.preprocessing import MultiLabelBinarizer
 
-possible_emotions = ['disgust', 'trust', 'anticipation', 'fear', 'sadness', 'anger', 'joy', 'neutral']
+possible_emotions = ['disgust', 'contempt', 'fear', 'sadness', 'anger', 'joy', 'neutral']
 
 nlp = spacy.load("en_core_web_sm")
 
-with open("T3-sample.json", "r") as fp: data = json.load(fp)
+with open("T3-sample.json", "r") as fp: data = json.load(fp)  # MELD_train_efr.json
 
 sentences = [sentence for group in [episode["utterances"] for episode in data] for sentence in group]
 labels = [label for group in [episode["emotions"] for episode in data] for label in group]
@@ -24,10 +24,11 @@ labels = new_labels
 df = pd.DataFrame({"Label": labels, "Sentence": sentences})
 df = df.drop_duplicates().reset_index(drop=True)
 
-lexicon = pd.read_csv("NRC-Emotion-Lexicon-Wordlevel-v0.92.txt", sep='\t', header=None, names=["Word", "Emotion", "Value"])
+lexicon = pd.read_csv("NRC-Emotion-Lexicon-Wordlevel-v0.92.txt", sep='\t', header=None,
+                      names=["Word", "Emotion", "Value"])
 lexicon2 = lexicon.pivot(index="Word", columns="Emotion", values="Value")
 lexicon2.reset_index(inplace=True)
-lexicon2 = lexicon2.drop(columns=["negative", "positive", "trust"])
+lexicon2 = lexicon2.drop(columns=["negative", "positive", "trust", "anticipation"])
 
 dictionary = lexicon.to_dict('split')
 del dictionary['index']
@@ -35,139 +36,110 @@ del dictionary['columns']
 data_list = dictionary['data']
 
 
-def lexicon_search():
-    no_examples = 0
-    got_right = 0
-    neutrals = 0
+def sentence_into_lemma_list(sentence):
+    sentence = nlp(sentence)
+    lemmatized_tokens = []
+    for token in sentence:
+        word = token.lemma_
+        lemmatized_tokens.append(word)
+    return lemmatized_tokens
+
+
+def get_features():
+
+    confidence_list = []
+
+    positive_list = []
+    negative_list = []
+
+    len_values = []
+
+    period_list = []
+    question_list = []
+    exclamation_list = []
+    ellipses_list = []
+
+    prediction_list = []
+    justification_list = []
+
     for sentence in sentences:
-        ac_emotions = labels[sentences.index(sentence)]
-        print(f"\n{no_examples + 1}")
-        print(sentence)
-        sentence = nlp(sentence)
+
+        lemmas = sentence_into_lemma_list(sentence)
+        len_values.append(len(lemmas))
+
+        pos = 0
+        neg = 0
+
+        period = 0
+        question = 0
+        exclamation = 0
+        ellipses = 0
+
         anger = 0
-        anticipation = 0
         disgust = 0
         fear = 0
         joy = 0
         sadness = 0
-        trust = 0
-        lemmatized_tokens = []
-        justification = []
-        for token in sentence:
-            word = token.lemma_
-            lemmatized_tokens.append(word)
-            if [word, 'anger', 0] in data_list or [word, 'anger', 1] in data_list:
-                if [word, 'anger', 1] in data_list:
-                    anger += 1
-                    justification.append([word, 'anger', 1])
-                if [word, 'anticipation', 1] in data_list:
-                    anticipation += 1
-                    justification.append([word, 'anticipation', 1])
-                if [word, 'disgust', 1] in data_list:
-                    disgust += 1
-                    justification.append([word, 'disgust', 1])
-                if [word, 'fear', 1] in data_list:
-                    fear += 1
-                    justification.append([word, 'fear', 1])
-                if [word, 'joy', 1] in data_list:
-                    joy += 1
-                    justification.append([word, 'joy', 1])
-                if [word, 'sadness', 1] in data_list:
-                    sadness += 1
-                    justification.append([word, 'sadness', 1])
-                if [word, 'trust', 1] in data_list:
-                    trust += 1
-                    justification.append([word, 'trust', 1])
-        print(lemmatized_tokens)
-        all_emotion_instances = joy + anger + sadness + fear + disgust + trust + anticipation
-        max_value_of_any_emotion = max(joy, anger, sadness, fear, disgust, trust, anticipation)
-        prediction = []
-        if max_value_of_any_emotion == joy:
-            prediction.append('joy')
-        if max_value_of_any_emotion == anger:
-            prediction.append('anger')
-        if max_value_of_any_emotion == sadness:
-            prediction.append('sadness')
-        if max_value_of_any_emotion == fear:
-            prediction.append('fear')
-        if max_value_of_any_emotion == anticipation:
-            prediction.append('anticipation')
-        if max_value_of_any_emotion == trust:
-            prediction.append('trust')
-        if max_value_of_any_emotion == disgust:
-            prediction.append('disgust')
-        if ac_emotions == 'neutral':
-            neutrals += 1
 
-        if all_emotion_instances:
-            confidence = max_value_of_any_emotion / all_emotion_instances
+        justification = []
+
+        for item in lemmas:
+
+            if [item, 'anger', 0] in data_list or [item, 'anger', 1] in data_list: # if item in lexicon
+
+                if [item, 'anger', 1] in data_list:
+                    anger += 1
+                    justification.append([item, 'anger'])
+                if [item, 'disgust', 1] in data_list:
+                    disgust += 1
+                    justification.append([item, 'disgust'])
+                if [item, 'fear', 1] in data_list:
+                    fear += 1
+                    justification.append([item, 'fear'])
+                if [item, 'joy', 1] in data_list:
+                    joy += 1
+                    justification.append([item, 'joy'])
+                if [item, 'sadness', 1] in data_list:
+                    sadness += 1
+                    justification.append([item, 'sadness'])
+
+                if [item, 'positive', 1] in data_list:
+                    pos += 1
+                if [item, 'negative', 1] in data_list:
+                    neg += 1
+
+            else:
+
+                if item == '.':
+                    period += 1
+                if item == '?':
+                    question += 1
+                if item == '!':
+                    exclamation += 1
+                if item == '...' or item == '....' or item == '.....':
+                    ellipses += 1
+
+        total_punctuation = period + question + exclamation + ellipses
+        if total_punctuation:
+            period_list.append(period / total_punctuation)
+            question_list.append(question / total_punctuation)
+            exclamation_list.append(exclamation / total_punctuation)
+            ellipses_list.append(ellipses / total_punctuation)
         else:
-            prediction = 'neutral'
-            confidence = 1.0
+            period_list.append(0.0)
+            question_list.append(0.0)
+            exclamation_list.append(0.0)
+            ellipses_list.append(0.0)
 
-        print(f"prediction: {prediction}")
-        print(f"confidence: {confidence}")
-        print(f"based on: {justification}")
-        print(f"actual emotion: {ac_emotions}")
-        if ac_emotions in prediction:
-            got_right += 1
-        no_examples += 1
+        total_sentiments = pos + neg
+        if total_sentiments:
+            pos /= total_sentiments
+            neg /= total_sentiments
+        positive_list.append(pos)
+        negative_list.append(neg)
 
-    accuracy = got_right / no_examples * 100
-    comparison = neutrals / no_examples * 100
-    print(f'\naccuracy: {accuracy}%')
-    print(f'accuracy if we just assumed every utterance was neutral: {comparison}%')
-
-
-def lex_search_with_returns():
-    # no_examples = 0
-    # got_right = 0
-    # neutrals = 0
-    predictions = []
-    justifications = []
-    confidences = []
-    for sentence in sentences:
-        # ac_emotions = labels[sentences.index(sentence)]
-        # print(f"\n{no_examples + 1}")
-        # print(sentence)
-        sentence = nlp(sentence)
-        anger = 0
-        anticipation = 0
-        disgust = 0
-        fear = 0
-        joy = 0
-        sadness = 0
-        trust = 0
-        lemmatized_tokens = []
-        justification = []
-        for token in sentence:
-            word = token.lemma_
-            lemmatized_tokens.append(word)
-            if [word, 'anger', 0] in data_list or [word, 'anger', 1] in data_list:
-                if [word, 'anger', 1] in data_list:
-                    anger += 1
-                    justification.append([word, 'anger', 1])
-                if [word, 'anticipation', 1] in data_list:
-                    anticipation += 1
-                    justification.append([word, 'anticipation', 1])
-                if [word, 'disgust', 1] in data_list:
-                    disgust += 1
-                    justification.append([word, 'disgust', 1])
-                if [word, 'fear', 1] in data_list:
-                    fear += 1
-                    justification.append([word, 'fear', 1])
-                if [word, 'joy', 1] in data_list:
-                    joy += 1
-                    justification.append([word, 'joy', 1])
-                if [word, 'sadness', 1] in data_list:
-                    sadness += 1
-                    justification.append([word, 'sadness', 1])
-                if [word, 'trust', 1] in data_list:
-                    trust += 1
-                    justification.append([word, 'trust', 1])
-        # print(lemmatized_tokens)
-        all_emotion_instances = joy + anger + sadness + fear + disgust + trust + anticipation
-        max_value_of_any_emotion = max(joy, anger, sadness, fear, disgust, trust, anticipation)
+        all_emotion_instances = joy + anger + sadness + fear + disgust
+        max_value_of_any_emotion = max(joy, anger, sadness, fear, disgust, )
         prediction = []
         if max_value_of_any_emotion == joy:
             prediction.append('joy')
@@ -177,64 +149,53 @@ def lex_search_with_returns():
             prediction.append('sadness')
         if max_value_of_any_emotion == fear:
             prediction.append('fear')
-        if max_value_of_any_emotion == anticipation:
-            prediction.append('anticipation')
-        if max_value_of_any_emotion == trust:
-            prediction.append('trust')
         if max_value_of_any_emotion == disgust:
             prediction.append('disgust')
-        # if ac_emotions == 'neutral':
-        #     neutrals += 1
-
         if all_emotion_instances:
             confidence = max_value_of_any_emotion / all_emotion_instances
         else:
             prediction = ['neutral']
             confidence = 1.0
 
-        # print(f"prediction: {prediction}")
-        # print(f"confidence: {confidence}")
-        # print(f"based on: {justification}")
-        # print(f"actual emotion: {ac_emotions}")
-        predictions.append(prediction)
-        confidences.append(confidence)
-        justifications.append(justification)
-    #     if ac_emotions in prediction:
-    #         got_right += 1
-    #     no_examples +=1
-    #
-    # accuracy = got_right / no_examples * 100
-    # comparison = neutrals / no_examples * 100
-    # print(f'\n accuracy: {accuracy}%')
-    # print(f'accuracy if we just assumed every utterance was neutral: {comparison}%')
-    return predictions, justifications, confidences
+        prediction_list.append(prediction)
+        confidence_list.append(confidence)
+        justification_list.append(justification)
+
+    max_len = max(len_values)
+    for value in len_values:
+        len_values[len_values.index(value)] /= max_len
+
+    return prediction_list, justification_list, confidence_list, positive_list, negative_list, len_values, period_list, question_list, exclamation_list, ellipses_list
 
 
-predict, just, conf = lex_search_with_returns()
+def df_generator():
+    # lengths = length_of_utterances()
+    predict, just, conf, pos_list, neg_list, lengths, periods, questions, exclamations, ellipses = get_features()
 
-data_for_df_init = {'sentences': sentences,
-                    'prediction': predict,
-                    'justification': just,
-                    'confidence': conf}
-df_init = pd.DataFrame.from_dict(data_for_df_init)
+    data_for_df_init = {'sentence': sentences,
+                        'positive': pos_list,
+                        'negative': neg_list,
+                        'confidence of lex': conf,
+                        'length': lengths,
+                        'period': periods,
+                        'question mark': questions,
+                        'exclamation point': exclamations,
+                        'ellipses': ellipses,
+                        'prediction from lex': predict,
+                        'justification from lex': just,
+                        }
+    df_init = pd.DataFrame.from_dict(data_for_df_init)
 
-emotion_series = pd.Series(predict)
+    emotion_series = pd.Series(predict)
+    mlb = MultiLabelBinarizer()
+    one_hot_emotions = pd.DataFrame(mlb.fit_transform(emotion_series),
+                                    columns=mlb.classes_,
+                                    index=emotion_series.index)
+    one_hot_emotions.insert(0, 'sentence', sentences)
 
-mlb = MultiLabelBinarizer()
+    df_final = pd.merge(one_hot_emotions, df_init, on='sentence')
+    df_final['label'] = labels
+    df_final.to_excel("overview.xlsx")
 
-one_hot_emotions = pd.DataFrame(mlb.fit_transform(emotion_series),
-                   columns=mlb.classes_,
-                   index=emotion_series.index)
-one_hot_emotions.insert(0, 'sentences', sentences)
-found_emotions = list(one_hot_emotions)
 
-for emotion in possible_emotions:
-    if emotion not in found_emotions:
-        one_hot_emotions[emotion] = 0
-
-df_final = pd.merge(one_hot_emotions, df_init, on='sentences')
-
-df_final['label'] = labels
-# print(res.to_string())
-# print(new.to_string())
-print(df_final.to_string())
+df_generator()

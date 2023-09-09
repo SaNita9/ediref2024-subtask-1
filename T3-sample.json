@@ -233,5 +233,4809 @@
             1.0,
             0.0
         ]
+    },
+    {
+        "episode": "utterance_5",
+        "speakers":
+        [
+            "Joey",
+            "Rachel",
+            "Joey",
+            "Rachel",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "sadness",
+            "surprise",
+            "fear",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "But then who? The waitress I went out with last month?",
+            "You know? Forget it!",
+            "No-no-no-no, no! Who, who were you talking about?",
+            "No, I-I-I-I don't, I actually don't know",
+            "Ok!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_6",
+        "speakers":
+        [
+            "Joey",
+            "Rachel",
+            "Joey",
+            "Rachel",
+            "Joey",
+            "Joey",
+            "Rachel"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "sadness",
+            "surprise",
+            "fear",
+            "neutral",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "But then who? The waitress I went out with last month?",
+            "You know? Forget it!",
+            "No-no-no-no, no! Who, who were you talking about?",
+            "No, I-I-I-I don't, I actually don't know",
+            "Ok!",
+            "All right, well...",
+            "Yeah, sure!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_7",
+        "speakers":
+        [
+            "Chandler",
+            "Monica",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "Hey, Mon.",
+            "Hey-hey-hey. You wanna hear something that sucks.",
+            "Do I ever."
+        ],
+        "triggers":
+        [
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_8",
+        "speakers":
+        [
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "joy",
+            "sadness"
+        ],
+        "utterances":
+        [
+            "Hey, Mon.",
+            "Hey-hey-hey. You wanna hear something that sucks.",
+            "Do I ever.",
+            "Chris says they're closing down the bar."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_9",
+        "speakers":
+        [
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "joy",
+            "sadness",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "Hey, Mon.",
+            "Hey-hey-hey. You wanna hear something that sucks.",
+            "Do I ever.",
+            "Chris says they're closing down the bar.",
+            "No way!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_10",
+        "speakers":
+        [
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "joy",
+            "sadness",
+            "surprise",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Hey, Mon.",
+            "Hey-hey-hey. You wanna hear something that sucks.",
+            "Do I ever.",
+            "Chris says they're closing down the bar.",
+            "No way!",
+            "Yeah, apparently they're turning it into some kinda coffee place."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_11",
+        "speakers":
+        [
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "joy",
+            "sadness",
+            "surprise",
+            "neutral",
+            "disgust"
+        ],
+        "utterances":
+        [
+            "Hey, Mon.",
+            "Hey-hey-hey. You wanna hear something that sucks.",
+            "Do I ever.",
+            "Chris says they're closing down the bar.",
+            "No way!",
+            "Yeah, apparently they're turning it into some kinda coffee place.",
+            "Just coffee! Where are we gonna hang out now?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_12",
+        "speakers":
+        [
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "joy",
+            "sadness",
+            "surprise",
+            "neutral",
+            "disgust",
+            "sadness"
+        ],
+        "utterances":
+        [
+            "Hey, Mon.",
+            "Hey-hey-hey. You wanna hear something that sucks.",
+            "Do I ever.",
+            "Chris says they're closing down the bar.",
+            "No way!",
+            "Yeah, apparently they're turning it into some kinda coffee place.",
+            "Just coffee! Where are we gonna hang out now?",
+            "Got me."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_13",
+        "speakers":
+        [
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "joy",
+            "sadness",
+            "surprise",
+            "neutral",
+            "disgust",
+            "sadness",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Hey, Mon.",
+            "Hey-hey-hey. You wanna hear something that sucks.",
+            "Do I ever.",
+            "Chris says they're closing down the bar.",
+            "No way!",
+            "Yeah, apparently they're turning it into some kinda coffee place.",
+            "Just coffee! Where are we gonna hang out now?",
+            "Got me.",
+            "Can I get a beer."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_14",
+        "speakers":
+        [
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "joy",
+            "sadness",
+            "surprise",
+            "neutral",
+            "disgust",
+            "sadness",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Hey, Mon.",
+            "Hey-hey-hey. You wanna hear something that sucks.",
+            "Do I ever.",
+            "Chris says they're closing down the bar.",
+            "No way!",
+            "Yeah, apparently they're turning it into some kinda coffee place.",
+            "Just coffee! Where are we gonna hang out now?",
+            "Got me.",
+            "Can I get a beer.",
+            "Hey, did you pick a roommate?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_15",
+        "speakers":
+        [
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler",
+            "Monica",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "joy",
+            "sadness",
+            "surprise",
+            "neutral",
+            "disgust",
+            "sadness",
+            "neutral",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "Hey, Mon.",
+            "Hey-hey-hey. You wanna hear something that sucks.",
+            "Do I ever.",
+            "Chris says they're closing down the bar.",
+            "No way!",
+            "Yeah, apparently they're turning it into some kinda coffee place.",
+            "Just coffee! Where are we gonna hang out now?",
+            "Got me.",
+            "Can I get a beer.",
+            "Hey, did you pick a roommate?",
+            "You betcha!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_16",
+        "speakers":
+        [
+            "Phoebe",
+            "Chandler",
+            "Phoebe",
+            "Phoebe"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "surprise",
+            "surprise",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Oh my God, oh my God! Poor Monica!",
+            "What, what, what?!",
+            "What?!",
+            "He was with her when he wrote this poem."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_17",
+        "speakers":
+        [
+            "Phoebe",
+            "Chandler",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "surprise",
+            "surprise",
+            "neutral",
+            "neutral",
+            "neutral",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "Oh my God, oh my God! Poor Monica!",
+            "What, what, what?!",
+            "What?!",
+            "He was with her when he wrote this poem.",
+            "Look,  'My vessel so empty with nothing inside.",
+            "Now that I've touched you, you seem emptier still.'",
+            "He thinks Monica is empty, she is the empty vase!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_18",
+        "speakers":
+        [
+            "Phoebe",
+            "Chandler",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "surprise",
+            "surprise",
+            "neutral",
+            "neutral",
+            "neutral",
+            "surprise",
+            "sadness"
+        ],
+        "utterances":
+        [
+            "Oh my God, oh my God! Poor Monica!",
+            "What, what, what?!",
+            "What?!",
+            "He was with her when he wrote this poem.",
+            "Look,  'My vessel so empty with nothing inside.",
+            "Now that I've touched you, you seem emptier still.'",
+            "He thinks Monica is empty, she is the empty vase!",
+            "Oh, totally. Oh, God, oh, she seemed so happy too."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_19",
+        "speakers":
+        [
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "joy",
+            "surprise",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hi!",
+            "What are you doing here?",
+            "Ah y'know, this building is on my paper route so I..."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_20",
+        "speakers":
+        [
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "joy",
+            "surprise",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hi!",
+            "What are you doing here?",
+            "Ah y'know, this building is on my paper route so I...",
+            "Oh."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_21",
+        "speakers":
+        [
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "joy",
+            "surprise",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hi!",
+            "What are you doing here?",
+            "Ah y'know, this building is on my paper route so I...",
+            "Oh.",
+            "Hi.",
+            "Hi.",
+            "How'd did it go?",
+            "Oh well, the woman I interviewed with was pretty tough, but y'know thank God Mark coached me, because once I started talking about the fall line, she got all happy and wouldn't shut up."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_22",
+        "speakers":
+        [
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "joy",
+            "surprise",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "joy"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hi!",
+            "What are you doing here?",
+            "Ah y'know, this building is on my paper route so I...",
+            "Oh.",
+            "Hi.",
+            "Hi.",
+            "How'd did it go?",
+            "Oh well, the woman I interviewed with was pretty tough, but y'know thank God Mark coached me, because once I started talking about the fall line, she got all happy and wouldn't shut up.",
+            "I'm so proud of you."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_23",
+        "speakers":
+        [
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "joy",
+            "surprise",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "joy",
+            "joy",
+            "sadness"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hi!",
+            "What are you doing here?",
+            "Ah y'know, this building is on my paper route so I...",
+            "Oh.",
+            "Hi.",
+            "Hi.",
+            "How'd did it go?",
+            "Oh well, the woman I interviewed with was pretty tough, but y'know thank God Mark coached me, because once I started talking about the fall line, she got all happy and wouldn't shut up.",
+            "I'm so proud of you.",
+            "Me too!",
+            "Listen, I'm ah, I'm sorry I've been so crazy and jealous and, it's just that I like you a lot, so..."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_24",
+        "speakers":
+        [
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "joy",
+            "surprise",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "joy",
+            "joy",
+            "sadness",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hi!",
+            "What are you doing here?",
+            "Ah y'know, this building is on my paper route so I...",
+            "Oh.",
+            "Hi.",
+            "Hi.",
+            "How'd did it go?",
+            "Oh well, the woman I interviewed with was pretty tough, but y'know thank God Mark coached me, because once I started talking about the fall line, she got all happy and wouldn't shut up.",
+            "I'm so proud of you.",
+            "Me too!",
+            "Listen, I'm ah, I'm sorry I've been so crazy and jealous and, it's just that I like you a lot, so...",
+            "I know."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_25",
+        "speakers":
+        [
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "joy",
+            "surprise",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "joy",
+            "joy",
+            "sadness",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hi!",
+            "What are you doing here?",
+            "Ah y'know, this building is on my paper route so I...",
+            "Oh.",
+            "Hi.",
+            "Hi.",
+            "How'd did it go?",
+            "Oh well, the woman I interviewed with was pretty tough, but y'know thank God Mark coached me, because once I started talking about the fall line, she got all happy and wouldn't shut up.",
+            "I'm so proud of you.",
+            "Me too!",
+            "Listen, I'm ah, I'm sorry I've been so crazy and jealous and, it's just that I like you a lot, so...",
+            "I know.",
+            "Yeah."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_26",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "joy",
+            "surprise",
+            "joy",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Good job Joe! Well done! Top notch!",
+            "You liked it? You really liked it?",
+            "Oh-ho-ho, yeah!",
+            "Which part exactly?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_27",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "joy",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Good job Joe! Well done! Top notch!",
+            "You liked it? You really liked it?",
+            "Oh-ho-ho, yeah!",
+            "Which part exactly?",
+            "The whole thing! Can we go?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_28",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "joy",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral",
+            "anger"
+        ],
+        "utterances":
+        [
+            "Good job Joe! Well done! Top notch!",
+            "You liked it? You really liked it?",
+            "Oh-ho-ho, yeah!",
+            "Which part exactly?",
+            "The whole thing! Can we go?",
+            "Oh no-no-no, give me some specifics."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_29",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "joy",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral",
+            "anger",
+            "joy"
+        ],
+        "utterances":
+        [
+            "Good job Joe! Well done! Top notch!",
+            "You liked it? You really liked it?",
+            "Oh-ho-ho, yeah!",
+            "Which part exactly?",
+            "The whole thing! Can we go?",
+            "Oh no-no-no, give me some specifics.",
+            "I love the specifics, the specifics were the best part!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_30",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "joy",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral",
+            "anger",
+            "joy",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Good job Joe! Well done! Top notch!",
+            "You liked it? You really liked it?",
+            "Oh-ho-ho, yeah!",
+            "Which part exactly?",
+            "The whole thing! Can we go?",
+            "Oh no-no-no, give me some specifics.",
+            "I love the specifics, the specifics were the best part!",
+            "Hey, what about the scene with the kangaroo? Did-did you like that part?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_31",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "joy",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral",
+            "anger",
+            "joy",
+            "neutral",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "Good job Joe! Well done! Top notch!",
+            "You liked it? You really liked it?",
+            "Oh-ho-ho, yeah!",
+            "Which part exactly?",
+            "The whole thing! Can we go?",
+            "Oh no-no-no, give me some specifics.",
+            "I love the specifics, the specifics were the best part!",
+            "Hey, what about the scene with the kangaroo? Did-did you like that part?",
+            "I was surprised to see a kangaroo in a World War I epic."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_32",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "joy",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral",
+            "anger",
+            "joy",
+            "neutral",
+            "surprise",
+            "anger"
+        ],
+        "utterances":
+        [
+            "Good job Joe! Well done! Top notch!",
+            "You liked it? You really liked it?",
+            "Oh-ho-ho, yeah!",
+            "Which part exactly?",
+            "The whole thing! Can we go?",
+            "Oh no-no-no, give me some specifics.",
+            "I love the specifics, the specifics were the best part!",
+            "Hey, what about the scene with the kangaroo? Did-did you like that part?",
+            "I was surprised to see a kangaroo in a World War I epic.",
+            "You fell asleep!!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_33",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "joy",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral",
+            "anger",
+            "joy",
+            "neutral",
+            "surprise",
+            "anger",
+            "anger",
+            "anger",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Good job Joe! Well done! Top notch!",
+            "You liked it? You really liked it?",
+            "Oh-ho-ho, yeah!",
+            "Which part exactly?",
+            "The whole thing! Can we go?",
+            "Oh no-no-no, give me some specifics.",
+            "I love the specifics, the specifics were the best part!",
+            "Hey, what about the scene with the kangaroo? Did-did you like that part?",
+            "I was surprised to see a kangaroo in a World War I epic.",
+            "You fell asleep!!",
+            "There was no kangaroo!",
+            "They didn't take any of my suggestions!",
+            "That's for coming buddy."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_34",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "joy",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral",
+            "anger",
+            "joy",
+            "neutral",
+            "surprise",
+            "anger",
+            "anger",
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness"
+        ],
+        "utterances":
+        [
+            "Good job Joe! Well done! Top notch!",
+            "You liked it? You really liked it?",
+            "Oh-ho-ho, yeah!",
+            "Which part exactly?",
+            "The whole thing! Can we go?",
+            "Oh no-no-no, give me some specifics.",
+            "I love the specifics, the specifics were the best part!",
+            "Hey, what about the scene with the kangaroo? Did-did you like that part?",
+            "I was surprised to see a kangaroo in a World War I epic.",
+            "You fell asleep!!",
+            "There was no kangaroo!",
+            "They didn't take any of my suggestions!",
+            "That's for coming buddy.",
+            "I'll see you later.",
+            "Don't go!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_35",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Chandler",
+            "Chandler",
+            "Chandler",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "joy",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral",
+            "anger",
+            "joy",
+            "neutral",
+            "surprise",
+            "anger",
+            "anger",
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness",
+            "sadness",
+            "sadness",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "Good job Joe! Well done! Top notch!",
+            "You liked it? You really liked it?",
+            "Oh-ho-ho, yeah!",
+            "Which part exactly?",
+            "The whole thing! Can we go?",
+            "Oh no-no-no, give me some specifics.",
+            "I love the specifics, the specifics were the best part!",
+            "Hey, what about the scene with the kangaroo? Did-did you like that part?",
+            "I was surprised to see a kangaroo in a World War I epic.",
+            "You fell asleep!!",
+            "There was no kangaroo!",
+            "They didn't take any of my suggestions!",
+            "That's for coming buddy.",
+            "I'll see you later.",
+            "Don't go!",
+            "I'm sorry.",
+            "I'm so sorry!",
+            "Look!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_36",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Chandler",
+            "Chandler",
+            "Chandler",
+            "Chandler",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "joy",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral",
+            "anger",
+            "joy",
+            "neutral",
+            "surprise",
+            "anger",
+            "anger",
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness",
+            "sadness",
+            "sadness",
+            "surprise",
+            "anger"
+        ],
+        "utterances":
+        [
+            "Good job Joe! Well done! Top notch!",
+            "You liked it? You really liked it?",
+            "Oh-ho-ho, yeah!",
+            "Which part exactly?",
+            "The whole thing! Can we go?",
+            "Oh no-no-no, give me some specifics.",
+            "I love the specifics, the specifics were the best part!",
+            "Hey, what about the scene with the kangaroo? Did-did you like that part?",
+            "I was surprised to see a kangaroo in a World War I epic.",
+            "You fell asleep!!",
+            "There was no kangaroo!",
+            "They didn't take any of my suggestions!",
+            "That's for coming buddy.",
+            "I'll see you later.",
+            "Don't go!",
+            "I'm sorry.",
+            "I'm so sorry!",
+            "Look!",
+            "This guy fell asleep!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_37",
+        "speakers":
+        [
+            "Phoebe",
+            "Phoebe",
+            "Chandler",
+            "Customer",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "Yes, and it is my dying wish to have that ring.",
+            "See, if I'm not buried with that ring then my spirit is going to wander the nether world for all eternity",
+            "Okay, that's enough honey!",
+            "I don't know.  Let me see the ring.",
+            "Great! Okay, here."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_38",
+        "speakers":
+        [
+            "Chandler",
+            "Jade",
+            "Jade",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "What've you been up to?",
+            "Oh, you know, the usual, teaching aerobics, partying way too much.",
+            "Oh, and in case you were wondering, those are my legs on the new James Bond poster.",
+            "Can you hold on a moment? I have another call.  I love her."
+        ],
+        "triggers":
+        [
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_39",
+        "speakers":
+        [
+            "Chandler",
+            "Jade",
+            "Jade",
+            "Chandler",
+            "Ross",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "What've you been up to?",
+            "Oh, you know, the usual, teaching aerobics, partying way too much.",
+            "Oh, and in case you were wondering, those are my legs on the new James Bond poster.",
+            "Can you hold on a moment? I have another call.  I love her.",
+            "I know.",
+            "I'm back."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_40",
+        "speakers":
+        [
+            "Chandler",
+            "Jade",
+            "Jade",
+            "Chandler",
+            "Ross",
+            "Chandler",
+            "Jade",
+            "Chandler",
+            "Jade",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "What've you been up to?",
+            "Oh, you know, the usual, teaching aerobics, partying way too much.",
+            "Oh, and in case you were wondering, those are my legs on the new James Bond poster.",
+            "Can you hold on a moment? I have another call.  I love her.",
+            "I know.",
+            "I'm back.",
+            "So, are we gonna get together or what?",
+            "Um, absolutely. Uh, how 'bout tomorrow afternoon? Do you know uh, Central Perk in the Village, say, five-ish?",
+            "Great, I'll see you then.",
+            "Ok.  Ok. Having a phone has finally paid off."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_41",
+        "speakers":
+        [
+            "Chandler",
+            "Jade",
+            "Jade",
+            "Chandler",
+            "Ross",
+            "Chandler",
+            "Jade",
+            "Chandler",
+            "Jade",
+            "Chandler",
+            "Ross",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "What've you been up to?",
+            "Oh, you know, the usual, teaching aerobics, partying way too much.",
+            "Oh, and in case you were wondering, those are my legs on the new James Bond poster.",
+            "Can you hold on a moment? I have another call.  I love her.",
+            "I know.",
+            "I'm back.",
+            "So, are we gonna get together or what?",
+            "Um, absolutely. Uh, how 'bout tomorrow afternoon? Do you know uh, Central Perk in the Village, say, five-ish?",
+            "Great, I'll see you then.",
+            "Ok.  Ok. Having a phone has finally paid off.",
+            "Even though you do do a good Bob impression, I'm thinkin' when she sees you tomorow, she's probably gonna realize, \"Hey, you're not Bob.\"",
+            "I'm hoping that when Bob doesn't show up, she will seek comfort in the open arms of the wry stranger at the next table."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_42",
+        "speakers":
+        [
+            "Chandler",
+            "Jade",
+            "Jade",
+            "Chandler",
+            "Ross",
+            "Chandler",
+            "Jade",
+            "Chandler",
+            "Jade",
+            "Chandler",
+            "Ross",
+            "Chandler",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "neutral",
+            "disgust"
+        ],
+        "utterances":
+        [
+            "What've you been up to?",
+            "Oh, you know, the usual, teaching aerobics, partying way too much.",
+            "Oh, and in case you were wondering, those are my legs on the new James Bond poster.",
+            "Can you hold on a moment? I have another call.  I love her.",
+            "I know.",
+            "I'm back.",
+            "So, are we gonna get together or what?",
+            "Um, absolutely. Uh, how 'bout tomorrow afternoon? Do you know uh, Central Perk in the Village, say, five-ish?",
+            "Great, I'll see you then.",
+            "Ok.  Ok. Having a phone has finally paid off.",
+            "Even though you do do a good Bob impression, I'm thinkin' when she sees you tomorow, she's probably gonna realize, \"Hey, you're not Bob.\"",
+            "I'm hoping that when Bob doesn't show up, she will seek comfort in the open arms of the wry stranger at the next table.",
+            "Oh my god. You are pure evil."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_43",
+        "speakers":
+        [
+            "Chandler",
+            "Jade",
+            "Jade",
+            "Chandler",
+            "Ross",
+            "Chandler",
+            "Jade",
+            "Chandler",
+            "Jade",
+            "Chandler",
+            "Ross",
+            "Chandler",
+            "Ross",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "neutral",
+            "disgust",
+            "anger"
+        ],
+        "utterances":
+        [
+            "What've you been up to?",
+            "Oh, you know, the usual, teaching aerobics, partying way too much.",
+            "Oh, and in case you were wondering, those are my legs on the new James Bond poster.",
+            "Can you hold on a moment? I have another call.  I love her.",
+            "I know.",
+            "I'm back.",
+            "So, are we gonna get together or what?",
+            "Um, absolutely. Uh, how 'bout tomorrow afternoon? Do you know uh, Central Perk in the Village, say, five-ish?",
+            "Great, I'll see you then.",
+            "Ok.  Ok. Having a phone has finally paid off.",
+            "Even though you do do a good Bob impression, I'm thinkin' when she sees you tomorow, she's probably gonna realize, \"Hey, you're not Bob.\"",
+            "I'm hoping that when Bob doesn't show up, she will seek comfort in the open arms of the wry stranger at the next table.",
+            "Oh my god. You are pure evil.",
+            "Ok, pure evil , horny and alone . I've done this"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_44",
+        "speakers":
+        [
+            "Ross",
+            "Monica",
+            "Ross",
+            "Chandler",
+            "Phoebe",
+            "Phoebe",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "anger",
+            "neutral",
+            "joy",
+            "neutral",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "This is my wedding.",
+            "All right, y'know what? We really are late! Let's go! Let's go! Let's go!!",
+            "Fine. You'll-you'll watch it on video when we get back.",
+            "Here you go Phoebe! Here you go Phobo! Phewbedo! Phaybobo.",
+            "Thank you.",
+            "Thank you.",
+            "All right, let's go! Bye, Pheebs!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_45",
+        "speakers":
+        [
+            "Ross",
+            "Monica",
+            "Ross",
+            "Chandler",
+            "Phoebe",
+            "Phoebe",
+            "Ross",
+            "Joey",
+            "Joey",
+            "Phoebe"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "anger",
+            "neutral",
+            "joy",
+            "neutral",
+            "neutral",
+            "joy",
+            "joy",
+            "joy",
+            "joy"
+        ],
+        "utterances":
+        [
+            "This is my wedding.",
+            "All right, y'know what? We really are late! Let's go! Let's go! Let's go!!",
+            "Fine. You'll-you'll watch it on video when we get back.",
+            "Here you go Phoebe! Here you go Phobo! Phewbedo! Phaybobo.",
+            "Thank you.",
+            "Thank you.",
+            "All right, let's go! Bye, Pheebs!",
+            "Bye, Pheebs!",
+            "London baby!!",
+            "Oh, do you need a hug? You don't have to bring me anything!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_46",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "disgust"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hey! So Estelle lined up a bunch of auditions for me tomorrow and I'll have my health insurance back in no time.",
+            "That's great, but shouldn't you be on the toilet right now?"
+        ],
+        "triggers":
+        [
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_47",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "disgust",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hey! So Estelle lined up a bunch of auditions for me tomorrow and I'll have my health insurance back in no time.",
+            "That's great, but shouldn't you be on the toilet right now?",
+            "What?!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_48",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "disgust",
+            "surprise",
+            "disgust",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hey! So Estelle lined up a bunch of auditions for me tomorrow and I'll have my health insurance back in no time.",
+            "That's great, but shouldn't you be on the toilet right now?",
+            "What?!",
+            "What's wrong with you?",
+            "Nothing!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_49",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "disgust",
+            "surprise",
+            "disgust",
+            "neutral",
+            "fear"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hey! So Estelle lined up a bunch of auditions for me tomorrow and I'll have my health insurance back in no time.",
+            "That's great, but shouldn't you be on the toilet right now?",
+            "What?!",
+            "What's wrong with you?",
+            "Nothing!",
+            "Well, I-I got this blinding pain in my stomach when I was lifting weights before, then I uh passed out and uh, haven't been able to stand up since."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_50",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Joey",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "disgust",
+            "surprise",
+            "disgust",
+            "neutral",
+            "fear",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hey! So Estelle lined up a bunch of auditions for me tomorrow and I'll have my health insurance back in no time.",
+            "That's great, but shouldn't you be on the toilet right now?",
+            "What?!",
+            "What's wrong with you?",
+            "Nothing!",
+            "Well, I-I got this blinding pain in my stomach when I was lifting weights before, then I uh passed out and uh, haven't been able to stand up since.",
+            "But um, I don't think it's anything serious."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_51",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "disgust",
+            "surprise",
+            "disgust",
+            "neutral",
+            "fear",
+            "neutral",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hey! So Estelle lined up a bunch of auditions for me tomorrow and I'll have my health insurance back in no time.",
+            "That's great, but shouldn't you be on the toilet right now?",
+            "What?!",
+            "What's wrong with you?",
+            "Nothing!",
+            "Well, I-I got this blinding pain in my stomach when I was lifting weights before, then I uh passed out and uh, haven't been able to stand up since.",
+            "But um, I don't think it's anything serious.",
+            "This sounds like a hernia. You have to—you-you go to the doctor!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_52",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Chandler",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "disgust",
+            "surprise",
+            "disgust",
+            "neutral",
+            "fear",
+            "neutral",
+            "surprise",
+            "fear"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hey! So Estelle lined up a bunch of auditions for me tomorrow and I'll have my health insurance back in no time.",
+            "That's great, but shouldn't you be on the toilet right now?",
+            "What?!",
+            "What's wrong with you?",
+            "Nothing!",
+            "Well, I-I got this blinding pain in my stomach when I was lifting weights before, then I uh passed out and uh, haven't been able to stand up since.",
+            "But um, I don't think it's anything serious.",
+            "This sounds like a hernia. You have to—you-you go to the doctor!",
+            "No way! ‘Kay look, if I have to go to the doctor for anything it's gonna be for this thing sticking out of my stomach!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_53",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "disgust",
+            "surprise",
+            "disgust",
+            "neutral",
+            "fear",
+            "neutral",
+            "surprise",
+            "fear",
+            "disgust"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hey! So Estelle lined up a bunch of auditions for me tomorrow and I'll have my health insurance back in no time.",
+            "That's great, but shouldn't you be on the toilet right now?",
+            "What?!",
+            "What's wrong with you?",
+            "Nothing!",
+            "Well, I-I got this blinding pain in my stomach when I was lifting weights before, then I uh passed out and uh, haven't been able to stand up since.",
+            "But um, I don't think it's anything serious.",
+            "This sounds like a hernia. You have to—you-you go to the doctor!",
+            "No way! ‘Kay look, if I have to go to the doctor for anything it's gonna be for this thing sticking out of my stomach!",
+            "That's a hernia."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_54",
+        "speakers":
+        [
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Chandler",
+            "Joey",
+            "Chandler",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "disgust",
+            "surprise",
+            "disgust",
+            "neutral",
+            "fear",
+            "neutral",
+            "surprise",
+            "fear",
+            "disgust",
+            "anger"
+        ],
+        "utterances":
+        [
+            "Hey!",
+            "Hey! So Estelle lined up a bunch of auditions for me tomorrow and I'll have my health insurance back in no time.",
+            "That's great, but shouldn't you be on the toilet right now?",
+            "What?!",
+            "What's wrong with you?",
+            "Nothing!",
+            "Well, I-I got this blinding pain in my stomach when I was lifting weights before, then I uh passed out and uh, haven't been able to stand up since.",
+            "But um, I don't think it's anything serious.",
+            "This sounds like a hernia. You have to—you-you go to the doctor!",
+            "No way! ‘Kay look, if I have to go to the doctor for anything it's gonna be for this thing sticking out of my stomach!",
+            "That's a hernia.",
+            "Why did I have to start working out again?  Damn you 15s!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_55",
+        "speakers":
+        [
+            "Mona",
+            "Ross",
+            "Mona"
+        ],
+        "emotions":
+        [
+            "joy",
+            "neutral",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "I love your place! Where is this guy from?",
+            "Uh that's an eighteenth century Indian artifact from Calcutta.",
+            "Oh wow! So, you're more than just dinosaurs."
+        ],
+        "triggers":
+        [
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_56",
+        "speakers":
+        [
+            "Ross",
+            "Mona",
+            "Ross",
+            "Mona"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "Well, well to sum up, we're having fun, you look young.",
+            "Okay",
+            "But that's not enough. So… So…here's a key to my apartment.",
+            "Really?!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_57",
+        "speakers":
+        [
+            "Ross",
+            "Mona",
+            "Ross",
+            "Mona",
+            "Ross",
+            "Mona"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "surprise",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Well, well to sum up, we're having fun, you look young.",
+            "Okay",
+            "But that's not enough. So… So…here's a key to my apartment.",
+            "Really?!",
+            "Really.",
+            "You don't think this is too fast."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_58",
+        "speakers":
+        [
+            "Ross",
+            "Charlie",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "anger",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Get Out!",
+            "Ross, can I talk to you for a minute?",
+            "Yes, please!  So, what's going on?"
+        ],
+        "triggers":
+        [
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_59",
+        "speakers":
+        [
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie"
+        ],
+        "emotions":
+        [
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness"
+        ],
+        "utterances":
+        [
+            "Get Out!",
+            "Ross, can I talk to you for a minute?",
+            "Yes, please!  So, what's going on?",
+            "Uh, well... Joey and I broke up."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_60",
+        "speakers":
+        [
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "Get Out!",
+            "Ross, can I talk to you for a minute?",
+            "Yes, please!  So, what's going on?",
+            "Uh, well... Joey and I broke up.",
+            "Oh my God, wh-what happened?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_61",
+        "speakers":
+        [
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness",
+            "surprise",
+            "sadness",
+            "anger"
+        ],
+        "utterances":
+        [
+            "Get Out!",
+            "Ross, can I talk to you for a minute?",
+            "Yes, please!  So, what's going on?",
+            "Uh, well... Joey and I broke up.",
+            "Oh my God, wh-what happened?",
+            "Joey is a great guy, but we're just... so different! I mean, during your speech he kept laughing at homo erectus!",
+            "I knew that was him!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_62",
+        "speakers":
+        [
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness",
+            "surprise",
+            "sadness",
+            "anger",
+            "sadness",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Get Out!",
+            "Ross, can I talk to you for a minute?",
+            "Yes, please!  So, what's going on?",
+            "Uh, well... Joey and I broke up.",
+            "Oh my God, wh-what happened?",
+            "Joey is a great guy, but we're just... so different! I mean, during your speech he kept laughing at homo erectus!",
+            "I knew that was him!",
+            "Anyway I just, uh, I think it's for the best.",
+            "Hey, you ok?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_63",
+        "speakers":
+        [
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Charlie"
+        ],
+        "emotions":
+        [
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness",
+            "surprise",
+            "sadness",
+            "anger",
+            "sadness",
+            "neutral",
+            "sadness",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Get Out!",
+            "Ross, can I talk to you for a minute?",
+            "Yes, please!  So, what's going on?",
+            "Uh, well... Joey and I broke up.",
+            "Oh my God, wh-what happened?",
+            "Joey is a great guy, but we're just... so different! I mean, during your speech he kept laughing at homo erectus!",
+            "I knew that was him!",
+            "Anyway I just, uh, I think it's for the best.",
+            "Hey, you ok?",
+            "I guess.",
+            "There was hum...  there was another reason that I thought it was time to end it with Joey."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_64",
+        "speakers":
+        [
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Charlie",
+            "Charlie",
+            "Paleontologist",
+            "Ross",
+            "Charlie",
+            "Professore Clerk",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness",
+            "surprise",
+            "sadness",
+            "anger",
+            "sadness",
+            "neutral",
+            "sadness",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "anger"
+        ],
+        "utterances":
+        [
+            "Get Out!",
+            "Ross, can I talk to you for a minute?",
+            "Yes, please!  So, what's going on?",
+            "Uh, well... Joey and I broke up.",
+            "Oh my God, wh-what happened?",
+            "Joey is a great guy, but we're just... so different! I mean, during your speech he kept laughing at homo erectus!",
+            "I knew that was him!",
+            "Anyway I just, uh, I think it's for the best.",
+            "Hey, you ok?",
+            "I guess.",
+            "There was hum...  there was another reason that I thought it was time to end it with Joey.",
+            "I started to realize that I was having feelings for someone  else.",
+            "Ok Geller. Last day of the conference, you know what happens to the keynote speaker.",
+            "Oh, professor Clerk we're kind of in the middle of a conversation, here.",
+            "Yeah, can you guys just throw him in the pool later?",
+            "Or we could throw you both in",
+            "Ok, gentlemen!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_65",
+        "speakers":
+        [
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Charlie",
+            "Charlie",
+            "Paleontologist",
+            "Ross",
+            "Charlie",
+            "Professore Clerk",
+            "Ross",
+            "Ross",
+            "Ross",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness",
+            "surprise",
+            "sadness",
+            "anger",
+            "sadness",
+            "neutral",
+            "sadness",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "anger",
+            "anger",
+            "anger",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Get Out!",
+            "Ross, can I talk to you for a minute?",
+            "Yes, please!  So, what's going on?",
+            "Uh, well... Joey and I broke up.",
+            "Oh my God, wh-what happened?",
+            "Joey is a great guy, but we're just... so different! I mean, during your speech he kept laughing at homo erectus!",
+            "I knew that was him!",
+            "Anyway I just, uh, I think it's for the best.",
+            "Hey, you ok?",
+            "I guess.",
+            "There was hum...  there was another reason that I thought it was time to end it with Joey.",
+            "I started to realize that I was having feelings for someone  else.",
+            "Ok Geller. Last day of the conference, you know what happens to the keynote speaker.",
+            "Oh, professor Clerk we're kind of in the middle of a conversation, here.",
+            "Yeah, can you guys just throw him in the pool later?",
+            "Or we could throw you both in",
+            "Ok, gentlemen!",
+            "Please!",
+            "Aren't we a little old for this?",
+            "I mean, we're scientists, right?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_66",
+        "speakers":
+        [
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Charlie",
+            "Charlie",
+            "Paleontologist",
+            "Ross",
+            "Charlie",
+            "Professore Clerk",
+            "Ross",
+            "Ross",
+            "Ross",
+            "Ross",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness",
+            "surprise",
+            "sadness",
+            "anger",
+            "sadness",
+            "neutral",
+            "sadness",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "anger",
+            "anger",
+            "anger",
+            "neutral",
+            "anger"
+        ],
+        "utterances":
+        [
+            "Get Out!",
+            "Ross, can I talk to you for a minute?",
+            "Yes, please!  So, what's going on?",
+            "Uh, well... Joey and I broke up.",
+            "Oh my God, wh-what happened?",
+            "Joey is a great guy, but we're just... so different! I mean, during your speech he kept laughing at homo erectus!",
+            "I knew that was him!",
+            "Anyway I just, uh, I think it's for the best.",
+            "Hey, you ok?",
+            "I guess.",
+            "There was hum...  there was another reason that I thought it was time to end it with Joey.",
+            "I started to realize that I was having feelings for someone  else.",
+            "Ok Geller. Last day of the conference, you know what happens to the keynote speaker.",
+            "Oh, professor Clerk we're kind of in the middle of a conversation, here.",
+            "Yeah, can you guys just throw him in the pool later?",
+            "Or we could throw you both in",
+            "Ok, gentlemen!",
+            "Please!",
+            "Aren't we a little old for this?",
+            "I mean, we're scientists, right?",
+            "We're academics."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_67",
+        "speakers":
+        [
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Ross",
+            "Charlie",
+            "Charlie",
+            "Charlie",
+            "Paleontologist",
+            "Ross",
+            "Charlie",
+            "Professore Clerk",
+            "Ross",
+            "Ross",
+            "Ross",
+            "Ross",
+            "Ross",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "anger",
+            "neutral",
+            "neutral",
+            "sadness",
+            "surprise",
+            "sadness",
+            "anger",
+            "sadness",
+            "neutral",
+            "sadness",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "anger",
+            "anger",
+            "anger",
+            "neutral",
+            "anger",
+            "joy"
+        ],
+        "utterances":
+        [
+            "Get Out!",
+            "Ross, can I talk to you for a minute?",
+            "Yes, please!  So, what's going on?",
+            "Uh, well... Joey and I broke up.",
+            "Oh my God, wh-what happened?",
+            "Joey is a great guy, but we're just... so different! I mean, during your speech he kept laughing at homo erectus!",
+            "I knew that was him!",
+            "Anyway I just, uh, I think it's for the best.",
+            "Hey, you ok?",
+            "I guess.",
+            "There was hum...  there was another reason that I thought it was time to end it with Joey.",
+            "I started to realize that I was having feelings for someone  else.",
+            "Ok Geller. Last day of the conference, you know what happens to the keynote speaker.",
+            "Oh, professor Clerk we're kind of in the middle of a conversation, here.",
+            "Yeah, can you guys just throw him in the pool later?",
+            "Or we could throw you both in",
+            "Ok, gentlemen!",
+            "Please!",
+            "Aren't we a little old for this?",
+            "I mean, we're scientists, right?",
+            "We're academics.",
+            "And most importantly I... you-you will have to catch us first."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_68",
+        "speakers":
+        [
+            "Ross",
+            "Rachel",
+            "Phoebe",
+            "Monica",
+            "Phoebe"
+        ],
+        "emotions":
+        [
+            "joy",
+            "joy",
+            "disgust",
+            "surprise",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Go, go, go!",
+            "Oh yeah, now everybody wants to be under this hat!",
+            "Oy!!",
+            "What's with all this sand?",
+            "Oh, yeah, Bob said there might be flood damage."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_69",
+        "speakers":
+        [
+            "Ross",
+            "Rachel",
+            "Phoebe",
+            "Monica",
+            "Phoebe",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "joy",
+            "joy",
+            "disgust",
+            "surprise",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Go, go, go!",
+            "Oh yeah, now everybody wants to be under this hat!",
+            "Oy!!",
+            "What's with all this sand?",
+            "Oh, yeah, Bob said there might be flood damage.",
+            "Yeah, either that, or he has a really big cat."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_70",
+        "speakers":
+        [
+            "Joey",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "anger",
+            "joy"
+        ],
+        "utterances":
+        [
+            "Okay, see that blind guy right there? I'm gonna bash his head in later.",
+            "Oh umm, my big scene is coming up. Big scene coming up."
+        ],
+        "triggers":
+        [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_71",
+        "speakers":
+        [
+            "Ross",
+            "Joey",
+            "Ross",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "Hey, you wanna get something to eat or uh, do you wanna see how long we can throw this ball back and forth? Huh?",
+            "Uhh, the ball thing.",
+            "Yeah?",
+            "Hey Ross, wouldn't it be great if we could go two straight hours without dropping it?!"
+        ],
+        "triggers":
+        [
+            0.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_72",
+        "speakers":
+        [
+            "Ross",
+            "Joey",
+            "Ross",
+            "Joey",
+            "Ross",
+            "Joey",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "joy",
+            "fear"
+        ],
+        "utterances":
+        [
+            "Hey, you wanna get something to eat or uh, do you wanna see how long we can throw this ball back and forth? Huh?",
+            "Uhh, the ball thing.",
+            "Yeah?",
+            "Hey Ross, wouldn't it be great if we could go two straight hours without dropping it?!",
+            "Uhh,",
+            "Okay!",
+            "Uh-oh."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_73",
+        "speakers":
+        [
+            "Ross",
+            "Joey",
+            "Ross",
+            "Joey",
+            "Ross",
+            "Joey",
+            "Joey",
+            "Ross",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "joy",
+            "fear",
+            "neutral",
+            "sadness"
+        ],
+        "utterances":
+        [
+            "Hey, you wanna get something to eat or uh, do you wanna see how long we can throw this ball back and forth? Huh?",
+            "Uhh, the ball thing.",
+            "Yeah?",
+            "Hey Ross, wouldn't it be great if we could go two straight hours without dropping it?!",
+            "Uhh,",
+            "Okay!",
+            "Uh-oh.",
+            "What?",
+            "I have to pee. And Rachel's in the bathroom!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_74",
+        "speakers":
+        [
+            "Ross",
+            "Joey",
+            "Ross",
+            "Joey",
+            "Ross",
+            "Joey",
+            "Joey",
+            "Ross",
+            "Joey",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "joy",
+            "fear",
+            "neutral",
+            "sadness",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "Hey, you wanna get something to eat or uh, do you wanna see how long we can throw this ball back and forth? Huh?",
+            "Uhh, the ball thing.",
+            "Yeah?",
+            "Hey Ross, wouldn't it be great if we could go two straight hours without dropping it?!",
+            "Uhh,",
+            "Okay!",
+            "Uh-oh.",
+            "What?",
+            "I have to pee. And Rachel's in the bathroom!",
+            "Man, I didn't think we were gonna make it!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_75",
+        "speakers":
+        [
+            "Ross",
+            "Joey",
+            "Ross",
+            "Joey",
+            "Ross",
+            "Joey",
+            "Joey",
+            "Ross",
+            "Joey",
+            "Joey",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "neutral",
+            "joy",
+            "fear",
+            "neutral",
+            "sadness",
+            "surprise",
+            "fear"
+        ],
+        "utterances":
+        [
+            "Hey, you wanna get something to eat or uh, do you wanna see how long we can throw this ball back and forth? Huh?",
+            "Uhh, the ball thing.",
+            "Yeah?",
+            "Hey Ross, wouldn't it be great if we could go two straight hours without dropping it?!",
+            "Uhh,",
+            "Okay!",
+            "Uh-oh.",
+            "What?",
+            "I have to pee. And Rachel's in the bathroom!",
+            "Man, I didn't think we were gonna make it!",
+            "I know!  Don't switch hands, okay?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_76",
+        "speakers":
+        [
+            "Rachel",
+            "Joey",
+            "Phoebe",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "How did it go with Erin?",
+            "Oh, unbelievable! We had the best time!",
+            "Yay!! Oh so, you're not, you're not mad at us anymore?",
+            "No!",
+            "No!",
+            "No!",
+            "You guys were totally right!",
+            "This is so much better than the first time we went out.",
+            "Y'know?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_77",
+        "speakers":
+        [
+            "Rachel",
+            "Joey",
+            "Phoebe",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Phoebe"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "How did it go with Erin?",
+            "Oh, unbelievable! We had the best time!",
+            "Yay!! Oh so, you're not, you're not mad at us anymore?",
+            "No!",
+            "No!",
+            "No!",
+            "You guys were totally right!",
+            "This is so much better than the first time we went out.",
+            "Y'know?",
+            "That was so awkward, we were really nervous.",
+            "Didn't you sleep together?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_78",
+        "speakers":
+        [
+            "Rachel",
+            "Joey",
+            "Phoebe",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Phoebe",
+            "Joey",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "How did it go with Erin?",
+            "Oh, unbelievable! We had the best time!",
+            "Yay!! Oh so, you're not, you're not mad at us anymore?",
+            "No!",
+            "No!",
+            "No!",
+            "You guys were totally right!",
+            "This is so much better than the first time we went out.",
+            "Y'know?",
+            "That was so awkward, we were really nervous.",
+            "Didn't you sleep together?",
+            "Yeah, that really calms me down.",
+            "And!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_79",
+        "speakers":
+        [
+            "Rachel",
+            "Joey",
+            "Phoebe",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Phoebe",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Rachel"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "joy",
+            "joy",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "How did it go with Erin?",
+            "Oh, unbelievable! We had the best time!",
+            "Yay!! Oh so, you're not, you're not mad at us anymore?",
+            "No!",
+            "No!",
+            "No!",
+            "You guys were totally right!",
+            "This is so much better than the first time we went out.",
+            "Y'know?",
+            "That was so awkward, we were really nervous.",
+            "Didn't you sleep together?",
+            "Yeah, that really calms me down.",
+            "And!",
+            "We have so much in common!",
+            "She loves sandwiches, sports, although she is a Met fan, not much of an issue now but if we were ever to have kids, well that's a",
+            "Oh my God! Listen to you talkin' about having kids. Oh my Joey.  Oh, please don't get married before I do."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_80",
+        "speakers":
+        [
+            "Rachel",
+            "Joey",
+            "Phoebe",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Phoebe",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Joey",
+            "Rachel",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "joy",
+            "joy",
+            "surprise",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "How did it go with Erin?",
+            "Oh, unbelievable! We had the best time!",
+            "Yay!! Oh so, you're not, you're not mad at us anymore?",
+            "No!",
+            "No!",
+            "No!",
+            "You guys were totally right!",
+            "This is so much better than the first time we went out.",
+            "Y'know?",
+            "That was so awkward, we were really nervous.",
+            "Didn't you sleep together?",
+            "Yeah, that really calms me down.",
+            "And!",
+            "We have so much in common!",
+            "She loves sandwiches, sports, although she is a Met fan, not much of an issue now but if we were ever to have kids, well that's a",
+            "Oh my God! Listen to you talkin' about having kids. Oh my Joey.  Oh, please don't get married before I do.",
+            "Okay."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_81",
+        "speakers":
+        [
+            "Monica",
+            "Ross",
+            "Monica"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "How does she do that?",
+            "I cannot sleep in a public place.",
+            "Would you look at her? She is so peaceful."
+        ],
+        "triggers":
+        [
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_82",
+        "speakers":
+        [
+            "Monica",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Monica"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "neutral",
+            "joy",
+            "surprise",
+            "neutral",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "How does she do that?",
+            "I cannot sleep in a public place.",
+            "Would you look at her? She is so peaceful.",
+            "Oh! What what what! ...Hi.",
+            "It's okay, y'know, you just nodded off again.",
+            "What's going on with you?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_83",
+        "speakers":
+        [
+            "Monica",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Monica",
+            "Phoebe"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "neutral",
+            "joy",
+            "surprise",
+            "neutral",
+            "surprise",
+            "anger"
+        ],
+        "utterances":
+        [
+            "How does she do that?",
+            "I cannot sleep in a public place.",
+            "Would you look at her? She is so peaceful.",
+            "Oh! What what what! ...Hi.",
+            "It's okay, y'know, you just nodded off again.",
+            "What's going on with you?",
+            "I got no sleep last night!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_84",
+        "speakers":
+        [
+            "Monica",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Phoebe"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "neutral",
+            "joy",
+            "surprise",
+            "neutral",
+            "surprise",
+            "anger",
+            "neutral",
+            "disgust"
+        ],
+        "utterances":
+        [
+            "How does she do that?",
+            "I cannot sleep in a public place.",
+            "Would you look at her? She is so peaceful.",
+            "Oh! What what what! ...Hi.",
+            "It's okay, y'know, you just nodded off again.",
+            "What's going on with you?",
+            "I got no sleep last night!",
+            "Why?",
+            "My grandmother has this new boyfriend, and they're both kind of insecure in bed."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_85",
+        "speakers":
+        [
+            "Monica",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Phoebe",
+            "Phoebe"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "neutral",
+            "joy",
+            "surprise",
+            "neutral",
+            "surprise",
+            "anger",
+            "neutral",
+            "disgust",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "How does she do that?",
+            "I cannot sleep in a public place.",
+            "Would you look at her? She is so peaceful.",
+            "Oh! What what what! ...Hi.",
+            "It's okay, y'know, you just nodded off again.",
+            "What's going on with you?",
+            "I got no sleep last night!",
+            "Why?",
+            "My grandmother has this new boyfriend, and they're both kind of insecure in bed.",
+            "Oh, and deaf."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_86",
+        "speakers":
+        [
+            "Monica",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "neutral",
+            "joy",
+            "surprise",
+            "neutral",
+            "surprise",
+            "anger",
+            "neutral",
+            "disgust",
+            "neutral",
+            "neutral",
+            "disgust"
+        ],
+        "utterances":
+        [
+            "How does she do that?",
+            "I cannot sleep in a public place.",
+            "Would you look at her? She is so peaceful.",
+            "Oh! What what what! ...Hi.",
+            "It's okay, y'know, you just nodded off again.",
+            "What's going on with you?",
+            "I got no sleep last night!",
+            "Why?",
+            "My grandmother has this new boyfriend, and they're both kind of insecure in bed.",
+            "Oh, and deaf.",
+            "So they're constantly, like, having to reassure each other that they're having a good time.",
+            "You have no idea how loud they are!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_87",
+        "speakers":
+        [
+            "Monica",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe",
+            "Monica"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "neutral",
+            "joy",
+            "surprise",
+            "neutral",
+            "surprise",
+            "anger",
+            "neutral",
+            "disgust",
+            "neutral",
+            "neutral",
+            "disgust",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "How does she do that?",
+            "I cannot sleep in a public place.",
+            "Would you look at her? She is so peaceful.",
+            "Oh! What what what! ...Hi.",
+            "It's okay, y'know, you just nodded off again.",
+            "What's going on with you?",
+            "I got no sleep last night!",
+            "Why?",
+            "My grandmother has this new boyfriend, and they're both kind of insecure in bed.",
+            "Oh, and deaf.",
+            "So they're constantly, like, having to reassure each other that they're having a good time.",
+            "You have no idea how loud they are!",
+            "Well, if you want, you can stay with Rachel and me tonight."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_88",
+        "speakers":
+        [
+            "Monica",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Monica",
+            "Phoebe",
+            "Ross",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe",
+            "Phoebe",
+            "Monica",
+            "Phoebe"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "neutral",
+            "joy",
+            "surprise",
+            "neutral",
+            "surprise",
+            "anger",
+            "neutral",
+            "disgust",
+            "neutral",
+            "neutral",
+            "disgust",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "How does she do that?",
+            "I cannot sleep in a public place.",
+            "Would you look at her? She is so peaceful.",
+            "Oh! What what what! ...Hi.",
+            "It's okay, y'know, you just nodded off again.",
+            "What's going on with you?",
+            "I got no sleep last night!",
+            "Why?",
+            "My grandmother has this new boyfriend, and they're both kind of insecure in bed.",
+            "Oh, and deaf.",
+            "So they're constantly, like, having to reassure each other that they're having a good time.",
+            "You have no idea how loud they are!",
+            "Well, if you want, you can stay with Rachel and me tonight.",
+            "Thanks."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_89",
+        "speakers":
+        [
+            "Joey",
+            "Nurse",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "disgust",
+            "neutral",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "Ew! What is that? Something exploded!",
+            "It's just her water breaking. Calm down, will you?",
+            "Water breaking, what do you mean? What's that, water breaking?"
+        ],
+        "triggers":
+        [
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_90",
+        "speakers":
+        [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Rachel",
+            "Monica"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "anger",
+            "surprise",
+            "joy",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Are you insane? I mean Joey, is going to kill you, he's actually going to kill you dead.",
+            "Okay! You don't think I thought of that?",
+            "How can you not know which one?",
+            "I mean that's unbelievable.",
+            "I mean, was it Gina?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_91",
+        "speakers":
+        [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Rachel",
+            "Monica",
+            "Ross",
+            "Rachel"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "anger",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "Are you insane? I mean Joey, is going to kill you, he's actually going to kill you dead.",
+            "Okay! You don't think I thought of that?",
+            "How can you not know which one?",
+            "I mean that's unbelievable.",
+            "I mean, was it Gina?",
+            "Which one is Gina?",
+            "Dark, big hair, with the airplane earrings."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_92",
+        "speakers":
+        [
+            "Monica",
+            "Chandler",
+            "Phoebe",
+            "Rachel",
+            "Monica",
+            "Ross",
+            "Rachel",
+            "Monica",
+            "Chandler"
+        ],
+        "emotions":
+        [
+            "surprise",
+            "anger",
+            "surprise",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "Are you insane? I mean Joey, is going to kill you, he's actually going to kill you dead.",
+            "Okay! You don't think I thought of that?",
+            "How can you not know which one?",
+            "I mean that's unbelievable.",
+            "I mean, was it Gina?",
+            "Which one is Gina?",
+            "Dark, big hair, with the airplane earrings.",
+            "No, no, no, that's Dina.",
+            "You see you can't tell which one is which either, dwha!!"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_93",
+        "speakers":
+        [
+            "Rachel",
+            "Rachel",
+            "Rachel",
+            "Ross",
+            "Rachel"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "surprise"
+        ],
+        "utterances":
+        [
+            "I don't know, you thought ‘See you Saturday' was funny.",
+            "Look honey, Mark is in fashion okay, I like having a friend that I can share this stuff with.",
+            "You guys would never want to go to a lecture with me.",
+            "Pa-haa!! I would love to go with you.",
+            "Really!?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_94",
+        "speakers":
+        [
+            "Rachel",
+            "Rachel",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "surprise",
+            "neutral"
+        ],
+        "utterances":
+        [
+            "I don't know, you thought ‘See you Saturday' was funny.",
+            "Look honey, Mark is in fashion okay, I like having a friend that I can share this stuff with.",
+            "You guys would never want to go to a lecture with me.",
+            "Pa-haa!! I would love to go with you.",
+            "Really!?",
+            "Yeah, hey I-I have clothes, I even pick them out."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_95",
+        "speakers":
+        [
+            "Rachel",
+            "Rachel",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Ross",
+            "Rachel"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "surprise",
+            "neutral",
+            "neutral",
+            "joy"
+        ],
+        "utterances":
+        [
+            "I don't know, you thought ‘See you Saturday' was funny.",
+            "Look honey, Mark is in fashion okay, I like having a friend that I can share this stuff with.",
+            "You guys would never want to go to a lecture with me.",
+            "Pa-haa!! I would love to go with you.",
+            "Really!?",
+            "Yeah, hey I-I have clothes, I even pick them out.",
+            "I mean for, for all you know I could be a fashion..... monger.",
+            "Okay. Honey, I would love for you to go with me.  What?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_96",
+        "speakers":
+        [
+            "Rachel",
+            "Rachel",
+            "Rachel",
+            "Ross",
+            "Rachel",
+            "Ross",
+            "Ross",
+            "Rachel",
+            "Ross"
+        ],
+        "emotions":
+        [
+            "neutral",
+            "neutral",
+            "neutral",
+            "joy",
+            "surprise",
+            "neutral",
+            "neutral",
+            "joy",
+            "fear"
+        ],
+        "utterances":
+        [
+            "I don't know, you thought ‘See you Saturday' was funny.",
+            "Look honey, Mark is in fashion okay, I like having a friend that I can share this stuff with.",
+            "You guys would never want to go to a lecture with me.",
+            "Pa-haa!! I would love to go with you.",
+            "Really!?",
+            "Yeah, hey I-I have clothes, I even pick them out.",
+            "I mean for, for all you know I could be a fashion..... monger.",
+            "Okay. Honey, I would love for you to go with me.  What?",
+            "What should I wear, now I'm all nervous."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "episode": "utterance_97",
+        "speakers":
+        [
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger"
+        ],
+        "emotions":
+        [
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "neutral"
+        ],
+        "utterances":
+        [
+            ": I know, we did it!! Hey, that was incredible, huh?!",
+            "I know, it was amazing! I mean, we totally nailed it, it was beautiful.",
+            ": Thank you, listen, thanks a lot Tribbiani, . Oh my God, look at the time, I gotta catch the bus to the ball.",
+            "Oh well, okay, good luck.",
+            ": Yeah."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_98",
+        "speakers":
+        [
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            ": I know, we did it!! Hey, that was incredible, huh?!",
+            "I know, it was amazing! I mean, we totally nailed it, it was beautiful.",
+            ": Thank you, listen, thanks a lot Tribbiani, . Oh my God, look at the time, I gotta catch the bus to the ball.",
+            "Oh well, okay, good luck.",
+            ": Yeah.",
+            "Unless you wanna practice the Foxtrot again? Or-or the Tango?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_99",
+        "speakers":
+        [
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "surprise"
+        ],
+        "utterances":
+        [
+            ": I know, we did it!! Hey, that was incredible, huh?!",
+            "I know, it was amazing! I mean, we totally nailed it, it was beautiful.",
+            ": Thank you, listen, thanks a lot Tribbiani, . Oh my God, look at the time, I gotta catch the bus to the ball.",
+            "Oh well, okay, good luck.",
+            ": Yeah.",
+            "Unless you wanna practice the Foxtrot again? Or-or the Tango?",
+            ": Ahh, thanks but no. You see I-I think I'm ready to dance with girls.",
+            "Okay.",
+            ": Yeah.",
+            "Go get ‘em Treeger.",
+            ": Right.  Hey, ahh, you wanna come? Marge has a girlfriend.",
+            "Really?"
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    {
+        "episode": "utterance_100",
+        "speakers":
+        [
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey",
+            "Mr. Treeger",
+            "Joey"
+        ],
+        "emotions":
+        [
+            "joy",
+            "joy",
+            "joy",
+            "joy",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "neutral",
+            "surprise",
+            "neutral",
+            "neutral"
+        ],
+        "utterances":
+        [
+            ": I know, we did it!! Hey, that was incredible, huh?!",
+            "I know, it was amazing! I mean, we totally nailed it, it was beautiful.",
+            ": Thank you, listen, thanks a lot Tribbiani, . Oh my God, look at the time, I gotta catch the bus to the ball.",
+            "Oh well, okay, good luck.",
+            ": Yeah.",
+            "Unless you wanna practice the Foxtrot again? Or-or the Tango?",
+            ": Ahh, thanks but no. You see I-I think I'm ready to dance with girls.",
+            "Okay.",
+            ": Yeah.",
+            "Go get ‘em Treeger.",
+            ": Right.  Hey, ahh, you wanna come? Marge has a girlfriend.",
+            "Really?",
+            ": Yeah, you could dance real good with her, she's the same size as me.",
+            "No, I'm good."
+        ],
+        "triggers":
+        [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
     }
 ]
