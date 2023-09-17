@@ -46,6 +46,7 @@ def sentence_into_lemma_list(sentence):
 
 
 def get_features():
+    punct_list = ['.', '?', '!', '...', '....', '.....']
 
     confidence_list = []
 
@@ -62,9 +63,11 @@ def get_features():
     prediction_list = []
     justification_list = []
 
-    for sentence in sentences:
+    no_sentences_list = []
 
-        lemmas = sentence_into_lemma_list(sentence)
+    for line in sentences:
+
+        lemmas = sentence_into_lemma_list(line)
         len_values.append(len(lemmas))
 
         pos = 0
@@ -81,7 +84,11 @@ def get_features():
         joy = 0
         sadness = 0
 
+        no_sentences = 0
+
         justification = []
+
+        no_sentences = 0
 
         for item in lemmas:
 
@@ -109,7 +116,9 @@ def get_features():
                     neg += 1
 
             else:
-
+                if item in punct_list:
+                    if lemmas[lemmas.index(item)-1]:
+                        no_sentences += 1
                 if item == '.':
                     period += 1
                 if item == '?':
@@ -118,6 +127,11 @@ def get_features():
                     exclamation += 1
                 if item == '...' or item == '....' or item == '.....':
                     ellipses += 1
+
+        if lemmas[-1] not in punct_list:
+            no_sentences += 1
+
+        no_sentences_list.append(no_sentences/10)
 
         total_punctuation = period + question + exclamation + ellipses
         if total_punctuation:
@@ -130,6 +144,7 @@ def get_features():
             question_list.append(0.0)
             exclamation_list.append(0.0)
             ellipses_list.append(0.0)
+
 
         total_sentiments = pos + neg
         if total_sentiments:
@@ -165,14 +180,15 @@ def get_features():
     for value in len_values:
         len_values[len_values.index(value)] /= max_len
 
-    return prediction_list, justification_list, confidence_list, positive_list, negative_list, len_values, period_list, question_list, exclamation_list, ellipses_list
+    return prediction_list, justification_list, confidence_list, positive_list, negative_list, len_values, period_list, question_list, exclamation_list, ellipses_list, no_sentences_list
 
 
 def df_generator():
     # lengths = length_of_utterances()
-    predict, just, conf, pos_list, neg_list, lengths, periods, questions, exclamations, ellipses = get_features()
+    predict, just, conf, pos_list, neg_list, lengths, periods, questions, exclamations, ellipses, no_sestences = get_features()
 
     data_for_df_init = {'sentence': sentences,
+                        'number of sentences': no_sestences,
                         'positive': pos_list,
                         'negative': neg_list,
                         'confidence of lex': conf,
@@ -195,7 +211,8 @@ def df_generator():
 
     df_final = pd.merge(one_hot_emotions, df_init, on='sentence')
     df_final['label'] = labels
-    df_final.to_excel("overview.xlsx")
+    print(df_final.to_string())
+    # df_final.to_excel("overview.xlsx")
 
 
 df_generator()
