@@ -2,12 +2,13 @@ import pandas as pd
 import spacy
 import json
 from sklearn.preprocessing import MultiLabelBinarizer
+from lexicon_conversion import data_dict
 
 possible_emotions = ['disgust', 'contempt', 'fear', 'sadness', 'anger', 'joy', 'neutral']
 
 nlp = spacy.load("en_core_web_sm")
 
-with open("T3-sample.json", "r") as fp: data = json.load(fp)  # MELD_train_efr.json
+with open("MELD_train_efr.json", "r") as fp: data = json.load(fp)  # MELD_train_efr.json/T3-sample.json
 
 sentences = [sentence for group in [episode["utterances"] for episode in data] for sentence in group]
 labels = [label for group in [episode["emotions"] for episode in data] for label in group]
@@ -92,27 +93,27 @@ def get_features():
 
         for item in lemmas:
 
-            if [item, 'anger', 0] in data_list or [item, 'anger', 1] in data_list: # if item in lexicon
+            if item in data_dict: # if item in lexicon
 
-                if [item, 'anger', 1] in data_list:
+                if data_dict[item]['anger']:
                     anger += 1
                     justification.append([item, 'anger'])
-                if [item, 'disgust', 1] in data_list:
+                if data_dict[item]['disgust']:
                     disgust += 1
                     justification.append([item, 'disgust'])
-                if [item, 'fear', 1] in data_list:
+                if data_dict[item]['fear']:
                     fear += 1
                     justification.append([item, 'fear'])
-                if [item, 'joy', 1] in data_list:
+                if data_dict[item]['joy']:
                     joy += 1
                     justification.append([item, 'joy'])
-                if [item, 'sadness', 1] in data_list:
+                if data_dict[item]['sadness']:
                     sadness += 1
                     justification.append([item, 'sadness'])
 
-                if [item, 'positive', 1] in data_list:
+                if data_dict[item]['positive']:
                     pos += 1
-                if [item, 'negative', 1] in data_list:
+                if data_dict[item]['negative']:
                     neg += 1
 
             else:
@@ -183,36 +184,35 @@ def get_features():
     return prediction_list, justification_list, confidence_list, positive_list, negative_list, len_values, period_list, question_list, exclamation_list, ellipses_list, no_sentences_list
 
 
-def df_generator():
-    # lengths = length_of_utterances()
-    predict, just, conf, pos_list, neg_list, lengths, periods, questions, exclamations, ellipses, no_sestences = get_features()
-
-    data_for_df_init = {'sentence': sentences,
-                        'number of sentences': no_sestences,
-                        'positive': pos_list,
-                        'negative': neg_list,
-                        'confidence of lex': conf,
-                        'length': lengths,
-                        'period': periods,
-                        'question mark': questions,
-                        'exclamation point': exclamations,
-                        'ellipses': ellipses,
-                        'prediction from lex': predict,
-                        'justification from lex': just,
-                        }
-    df_init = pd.DataFrame.from_dict(data_for_df_init)
-
-    emotion_series = pd.Series(predict)
-    mlb = MultiLabelBinarizer()
-    one_hot_emotions = pd.DataFrame(mlb.fit_transform(emotion_series),
-                                    columns=mlb.classes_,
-                                    index=emotion_series.index)
-    one_hot_emotions.insert(0, 'sentence', sentences)
-
-    df_final = pd.merge(one_hot_emotions, df_init, on='sentence')
-    df_final['label'] = labels
-    print(df_final.to_string())
-    # df_final.to_excel("overview.xlsx")
 
 
-df_generator()
+predict, just, conf, pos_list, neg_list, lengths, periods, questions, exclamations, ellipses, no_sestences = get_features()
+
+data_for_df_init = {'sentence': sentences,
+                    'number of sentences': no_sestences,
+                    'positive': pos_list,
+                    'negative': neg_list,
+                    'confidence of lex': conf,
+                    'length': lengths,
+                    'period': periods,
+                    'question mark': questions,
+                    'exclamation point': exclamations,
+                    'ellipses': ellipses,
+                    # 'prediction from lex': predict,
+                    # 'justification from lex': just,
+                    }
+df_init = pd.DataFrame.from_dict(data_for_df_init)
+
+emotion_series = pd.Series(predict)
+mlb = MultiLabelBinarizer()
+one_hot_emotions = pd.DataFrame(mlb.fit_transform(emotion_series),
+                                columns=mlb.classes_,
+                                index=emotion_series.index)
+one_hot_emotions.insert(0, 'sentence', sentences)
+
+df_final = pd.merge(one_hot_emotions, df_init, on='sentence')
+df_final['label'] = labels
+
+# df_final.to_excel("overview.xlsx")
+
+
