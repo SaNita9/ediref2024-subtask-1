@@ -4,7 +4,7 @@ import json
 from sklearn.preprocessing import MultiLabelBinarizer
 from lexicon_conversion import data_dict
 
-possible_emotions = ['disgust', 'contempt', 'fear', 'sadness', 'anger', 'joy', 'neutral']
+possible_emotions = ['disgust', 'fear', 'sadness', 'anger', 'joy', 'neutral', 'surprise']
 
 nlp = spacy.load("en_core_web_sm")
 
@@ -84,6 +84,7 @@ def get_features():
         fear = 0
         joy = 0
         sadness = 0
+        surprise = 0
 
         no_sentences = 0
 
@@ -110,6 +111,9 @@ def get_features():
                 if data_dict[item]['sadness']:
                     sadness += 1
                     justification.append([item, 'sadness'])
+                if data_dict[item]['surprise']:
+                    anger += 1
+                    justification.append([item, 'surprise'])
 
                 if data_dict[item]['positive']:
                     pos += 1
@@ -146,7 +150,6 @@ def get_features():
             exclamation_list.append(0.0)
             ellipses_list.append(0.0)
 
-
         total_sentiments = pos + neg
         if total_sentiments:
             pos /= total_sentiments
@@ -154,8 +157,8 @@ def get_features():
         positive_list.append(pos)
         negative_list.append(neg)
 
-        all_emotion_instances = joy + anger + sadness + fear + disgust
-        max_value_of_any_emotion = max(joy, anger, sadness, fear, disgust, )
+        all_emotion_instances = joy + anger + sadness + fear + disgust + surprise
+        max_value_of_any_emotion = max(joy, anger, sadness, fear, disgust, surprise)
         prediction = []
         if max_value_of_any_emotion == joy:
             prediction.append('joy')
@@ -167,6 +170,8 @@ def get_features():
             prediction.append('fear')
         if max_value_of_any_emotion == disgust:
             prediction.append('disgust')
+        if max_value_of_any_emotion == surprise:
+            prediction.append('surprise')
         if all_emotion_instances:
             confidence = max_value_of_any_emotion / all_emotion_instances
         else:
@@ -182,7 +187,6 @@ def get_features():
         len_values[len_values.index(value)] /= max_len
 
     return prediction_list, justification_list, confidence_list, positive_list, negative_list, len_values, period_list, question_list, exclamation_list, ellipses_list, no_sentences_list
-
 
 
 
@@ -208,11 +212,15 @@ mlb = MultiLabelBinarizer()
 one_hot_emotions = pd.DataFrame(mlb.fit_transform(emotion_series),
                                 columns=mlb.classes_,
                                 index=emotion_series.index)
+for emotion in possible_emotions:
+    if emotion not in one_hot_emotions.columns:
+        one_hot_emotions[emotion] = 0
+
 one_hot_emotions.insert(0, 'sentence', sentences)
 
 df_final = pd.merge(one_hot_emotions, df_init, on='sentence')
 df_final['label'] = labels
 
-# df_final.to_excel("overview.xlsx")
+#print(df_final.to_string())
 
 
