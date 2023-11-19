@@ -13,8 +13,6 @@ features = ['anger', 'surprise', 'disgust', 'fear', 'joy', 'neutral', 'sadness',
 
 df_final.head()
 
-# Separate Target Variable and Predictor Variables
-
 X = df_final[features]
 y = df_final['label']
 
