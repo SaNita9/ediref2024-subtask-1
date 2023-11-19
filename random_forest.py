@@ -12,14 +12,14 @@ features = ['anger', 'surprise','disgust', 'fear', 'joy', 'neutral', 'sadness', 
 
 df_final.head()
 
-# Separate Target Variable and Predictor Variables
+
 
 X = df_final[features]
 y = df_final['label']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# print(X_train.shape, X_test.shape)
+
 
 classifier_rf = RandomForestClassifier(max_depth=9, min_samples_leaf=19, n_estimators=37,
                                         n_jobs=-1, random_state=42, oob_score=True)
@@ -43,9 +43,3 @@ rf = RandomForestClassifier(random_state=42, n_jobs=-1)
 print(classifier_rf.oob_score_)
 
 rf.fit(X_train, y_train)
-# imp_df = pd.DataFrame({
-#     "Varname": X_train.columns,
-#     "Imp": rf.feature_importances_
-# })
-# imp_df.sort_values(by="Imp", ascending=False)
-# print(imp_df)

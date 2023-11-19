@@ -29,23 +29,11 @@ print(clf)
 DTree = clf.fit(X_train, y_train)
 prediction = DTree.predict(X_test)
 
-# Measuring accuracy on Testing Data
-#
-#
+
 print(metrics.classification_report(y_test, prediction, labels=None, target_names=None, sample_weight=None, digits=2, output_dict=False, zero_division=0.0))
 print(metrics.confusion_matrix(y_test, prediction))
-#
-# # Plotting the feature importance for Top 10 most important columns
-#
-# feature_importances = pd.Series(DTree.feature_importances_, index=features)
-# feature_importances.nlargest(10).plot(kind='barh')
-# print(feature_importances)
-# # Printing some sample values of prediction
-# TestingDataResults = pd.DataFrame(data=X_test, columns=features)
-# TestingDataResults['TargetColumn'] = y_test
-# TestingDataResults['Prediction'] = prediction
-# TestingDataResults.head()
-# # surpise-ul scade
+
+
 from sklearn.metrics import f1_score
 
 f2 = f1_score(y_test, prediction, labels=['anger', 'surprise', 'disgust', 'fear', 'joy', 'neutral', 'sadness'], pos_label=1, average=None, sample_weight=None, zero_division='warn')
