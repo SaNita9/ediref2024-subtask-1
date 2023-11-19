@@ -43,9 +43,9 @@ rf = RandomForestClassifier(random_state=42, n_jobs=-1)
 print(classifier_rf.oob_score_)
 
 rf.fit(X_train, y_train)
-imp_df = pd.DataFrame({
-    "Varname": X_train.columns,
-    "Imp": rf.feature_importances_
-})
-imp_df.sort_values(by="Imp", ascending=False)
-print(imp_df)
+# imp_df = pd.DataFrame({
+#     "Varname": X_train.columns,
+#     "Imp": rf.feature_importances_
+# })
+# imp_df.sort_values(by="Imp", ascending=False)
+# print(imp_df)
