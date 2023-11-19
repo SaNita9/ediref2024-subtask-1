@@ -22,10 +22,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 
 clf = tree.DecisionTreeClassifier(max_depth=3, criterion='entropy')
 
-# Printing all the parameters of Decision Trees
+
 print(clf)
 
-# Creating the model on Training Data
+
 DTree = clf.fit(X_train, y_train)
 prediction = DTree.predict(X_test)
 
