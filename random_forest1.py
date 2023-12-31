@@ -1,4 +1,4 @@
-from main import df_final
+from main import df_train
 from sklearn.model_selection import train_test_split
 from numpy import mean
 from sklearn.datasets import make_classification
@@ -9,7 +9,7 @@ import pandas as pd, numpy as np
 import matplotlib.pyplot as plt, seaborn as sns
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
-from main import df_final
+from main import df_train
 from sklearn import tree
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
@@ -21,13 +21,13 @@ from imblearn.over_sampling import SMOTE
 from collections import Counter
 from matplotlib import pyplot
 from sklearn.preprocessing import LabelEncoder
-df_final.head()
+df_train.head()
 
 features = ['anger',  'disgust', 'fear', 'joy',  'sadness', 'positive',
             'negative', 'confidence of lex', 'length', 'period', 'question mark', 'exclamation point', 'ellipses']
 
-x0 = df_final[features]
-y0 = df_final['label']
+x0 = df_train[features]
+y0 = df_train['label']
 X_train, X_test, y_train, y_test = train_test_split(x0, y0, test_size=0.2, random_state=42)
 X=X_train
 y=y_train.to_numpy()
@@ -40,24 +40,7 @@ from matplotlib import pyplot
 from sklearn.preprocessing import LabelEncoder
 # define the dataset location
 
-# data = df_final.values
 
-# split into input and output elements
-# X, y = data[:, :-1], data[:, -1]
-# print(type(y))
-# label encode the target variable
-# y = LabelEncoder().fit_transform(y)
-# # summarize distribution
-# counter = Counter(y)
-# for k,v in counter.items():
-#  per = v / len(y) * 100
-#  print('Class=%d, n=%d (%.3f%%)' % (k, v, per))
-# plot the distribution
-# pyplot.bar(counter.keys(), counter.values())
-# pyplot.show()
-# # check version number
-# import imblearn
-# print(imblearn.__version__)
 
 
 y = LabelEncoder().fit_transform(y)
@@ -94,9 +77,9 @@ rf = RandomForestClassifier(random_state=42, n_jobs=-1)
 print(classifier_rf.oob_score_)
 pred =classifier_rf.predict(X_test)
 print("Accuracy:", metrics.accuracy_score(y_test, pred))
-print("prec:", metrics.precision_score(y_test, pred, ))
-print("rec:", metrics.recall_score(y_test, pred))
-print("f1:", metrics.f1_score(y_test, pred))#####de copiat de la decision tree ca e prost criteriul
+#print("prec:", metrics.precision_score(y_test, pred, ))
+#print("rec:", metrics.recall_score(y_test, pred))
+#print("f1:", metrics.f1_score(y_test, pred))#####de copiat de la decision tree ca e prost criteriul
 # rf.fit(X_train, y_train)
 # imp_df = pd.DataFrame({
 #     "Varname": X_train.columns,
