@@ -1,0 +1,8 @@
+{
+    "lemma": true,
+    "stop": true,
+    "train": "MELD_train_efr.csv",
+    "test": "MELD_val_efr.csv",
+    "out": "out",
+    "pred": true
+}
