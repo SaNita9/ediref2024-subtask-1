@@ -1,0 +1,41 @@
+accumulate_grad_batches: 2
+batch_size: 6
+dev_csv: MELD_val_efr.csv
+encoder_learning_rate: 1.0e-05
+encoder_model: bert-base-uncased
+gpus: 1
+hparams: !!python/object:argparse.Namespace
+  accumulate_grad_batches: 2
+  batch_size: 6
+  dev_csv: MELD_val_efr.csv
+  encoder_learning_rate: 1.0e-05
+  encoder_model: bert-base-uncased
+  gpus: 1
+  learning_rate: 3.0e-05
+  loader_workers: 8
+  max_epochs: 20
+  metric_mode: max
+  min_epochs: 5
+  monitor: val_acc
+  nr_frozen_epochs: 3
+  out: data/bert-base/result
+  patience: 3
+  save_top_k: 1
+  seed: 3
+  test_csv: MELD_test_split_efr.csv
+  train_csv: MELD_train_split_efr.csv
+  val_check_interval: 1.0
+learning_rate: 3.0e-05
+loader_workers: 8
+max_epochs: 20
+metric_mode: max
+min_epochs: 5
+monitor: val_acc
+nr_frozen_epochs: 3
+out: data/bert-base/result
+patience: 3
+save_top_k: 1
+seed: 3
+test_csv: MELD_test_split_efr.csv
+train_csv: MELD_train_split_efr.csv
+val_check_interval: 1.0
